@@ -21,33 +21,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Item 1: Create Virtual Machine in Azure/ Create an Azure Virtual Machine Windows 10, 4 vCPUs 
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Item 2: Install / Enable IIS in Windows WITH CGI 
+- Item 3: Install osTicket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/ZLPY1dt"/>
+<img src="https://i.imgur.com/ZLPY1dt.png"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Azure virtual machines (VMs) can be created through the Azure portal. This method provides a browser-based user interface to create VMs and their associated resources. If you don't have an Azure subscription, create a free account before you begin. Sign in to the Azure portal at https://portal.azure.com
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XFWmsaN.png" 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Control Panel, click Programs and Features, and then click Turn Windows features on or off. Expand Internet Information Services, expand World Wide Web Services, expand Application Development Features, and then select CGI. Click OK. Click Close. The <cgi> element configures default settings for Common Gateway Interface (CGI) applications for Internet Information Services.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5zuTTD2.png"
+</p>
+<p>
+To install osTicket, your web server must have PHP 8.x and MySQL 5.0 (or better) installed. osTicket comes with its own web-based installer to help guide you through the installation process without the frustration. While the installer provides step by step guide during the installation process, it’s important and helpful to have general knowledge about Web servers, PHP and MySQL.
 </p>
 <br />
